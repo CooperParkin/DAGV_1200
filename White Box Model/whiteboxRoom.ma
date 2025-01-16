@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
-//Name: White Box Model.ma
-//Last modified: Wed, Jan 15, 2025 11:12:57 PM
+//Name: whiteboxRoom.ma
+//Last modified: Wed, Jan 15, 2025 11:14:11 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -12,12 +12,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "5CFF87A4-4F85-260C-B216-4EAF0D3879BD";
+fileInfo "UUID" "172E4DC5-4664-79B0-BFB3-2CBAD72B1FFD";
 createNode transform -s -n "persp";
 	rename -uid "2E1AFBBF-4E12-A563-D650-E1943CA10A89";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 8.231576900615412 6.8628375161297566 10.790388703074957 ;
-	setAttr ".r" -type "double3" -22.800000000000036 -322.00000000026381 1.0090454561992614e-15 ;
+	setAttr ".t" -type "double3" 9.0399482111375615 4.3514113037635429 11.168776110366105 ;
+	setAttr ".r" -type "double3" -12.600000000000477 -320.40000000026197 0 ;
 	setAttr ".rpt" -type "double3" -1.2363280028589965e-17 -8.9094468789511438e-16 2.8474580932275212e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DA116E6A-4C1E-2131-F7F2-8888793C9368";
@@ -674,7 +674,7 @@ createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
 	setAttr ".tgi[0].ni[1].y" -152.85714721679688;
 	setAttr ".tgi[0].ni[1].nvs" 1923;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "B8181B15-45C3-3C43-7FE7-4FA4E05CC2C5";
+	rename -uid "4F756A9E-4A56-7A07-D88D-5D941D4D3C6D";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
@@ -785,4 +785,4 @@ connectAttr "PurpleColor.msg" ":defaultShaderList1.s" -na;
 connectAttr "LightPinkColor.msg" ":defaultShaderList1.s" -na;
 connectAttr "BlueColor.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of White Box Model.ma
+// End of whiteboxRoom.ma
