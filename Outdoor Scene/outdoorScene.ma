@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: outdoorScene.ma
-//Last modified: Sun, Mar 23, 2025 01:07:03 AM
+//Last modified: Sun, Mar 23, 2025 01:20:37 AM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -14,7 +14,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "12D124A9-4BDC-ED7F-48FE-A3AD8AC2B557";
+fileInfo "UUID" "AA182376-43D3-7F10-7ACB-F6A0A6E5CEE2";
 createNode transform -s -n "persp";
 	rename -uid "C985AC6F-4B41-1585-2AEC-B0BC665052D4";
 	setAttr ".v" no;
@@ -83125,7 +83125,7 @@ createNode groupId -n "groupId81";
 	rename -uid "68E1AD0A-4328-E6C0-8764-C7BAED75292C";
 	setAttr ".ihi" 0;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "07A2FE39-4286-294A-2C12-E194693AD9EB";
+	rename -uid "A1492828-4357-F2DC-DFFD-1C899B1601CA";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
