@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: outdoorScene.ma
-//Last modified: Sun, Mar 09, 2025 07:49:35 PM
+//Last modified: Sun, Mar 23, 2025 01:07:03 AM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -14,7 +14,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "A560F861-4D74-DB34-D063-05BC6251A862";
+fileInfo "UUID" "12D124A9-4BDC-ED7F-48FE-A3AD8AC2B557";
 createNode transform -s -n "persp";
 	rename -uid "C985AC6F-4B41-1585-2AEC-B0BC665052D4";
 	setAttr ".v" no;
@@ -82436,11 +82436,11 @@ createNode aiAreaLight -n "aiAreaLightShape9" -p "aiAreaLight9";
 	setAttr ".aal" -type "attributeAlias" {"exposure","aiExposure","normalize","aiNormalize"
 		} ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "22E18C22-4D12-BB19-0CF5-6F9175BA2289";
+	rename -uid "B2F5C552-49EA-FC19-F815-D4BCCB6CF084";
 	setAttr -s 29 ".lnk";
 	setAttr -s 29 ".slnk";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "9A6B6493-4BA4-E624-15D3-0BA6C371A846";
+	rename -uid "4A1E199E-45C0-7769-7B79-A6BBFA8A1121";
 	setAttr ".cdl" 1;
 	setAttr -s 2 ".dli[1]"  2;
 	setAttr -s 2 ".dli";
@@ -82448,14 +82448,14 @@ createNode displayLayer -n "defaultLayer";
 	rename -uid "DD37E77A-4A7E-0C5C-F7FF-4892A7C1A35B";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "42ABC4F1-4431-D529-3531-17A3BBC67161";
+	rename -uid "59017AFF-46F9-F747-1FEE-F79B3215F533";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "961DDDB4-4B3E-77C3-7B5A-939688E2B081";
 	setAttr ".g" yes;
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "42E51314-4DF8-9BB2-B096-E5A7EF375BBB";
+	rename -uid "5A530665-406C-124C-F20E-608AA51FAD54";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "7EA5BF30-4F53-FDA7-7DE2-C3AED8C7E9EC";
+	rename -uid "AA61DFC9-4157-DD99-2CA7-98B03F9BBE40";
 createNode aiOptions -s -n "defaultArnoldRenderOptions";
 	rename -uid "9B6AA05B-43CD-84C1-F36E-76842279D469";
 	addAttr -ci true -sn "ARV_options" -ln "ARV_options" -dt "string";
@@ -83125,7 +83125,7 @@ createNode groupId -n "groupId81";
 	rename -uid "68E1AD0A-4328-E6C0-8764-C7BAED75292C";
 	setAttr ".ihi" 0;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "415AE664-4161-FCC6-FAE5-62991DF47A9F";
+	rename -uid "07A2FE39-4286-294A-2C12-E194693AD9EB";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
